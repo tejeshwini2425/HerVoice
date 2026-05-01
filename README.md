@@ -91,15 +91,6 @@ Google Gemini API
 Vite
 Autoprefixer
 dotenv
-🚀 Getting Started
-1. Clone the repo
-git clone https://github.com/YOUR-USERNAME/her-voice.git
-cd her-voice
-2. Install dependencies
-npm install
-3. Run the app
-npm run dev
-🌍 Vision
 
 HER VOICE aims to become:
 
