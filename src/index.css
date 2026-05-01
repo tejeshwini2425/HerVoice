@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-burgundy: #2D0B2E; /* Deep Purple */
+  --color-burgundy-deep: #1A051C;
+  --color-burgundy-dark: #240826;
+  --color-pink-soft: #FFD1DC; /* Soft Pink */
+  --color-pink-baby: #F4C2C2;
+  --color-gold-glow: #FFD700; /* Gold Glow */
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-burgundy text-pink-soft font-sans selection:bg-pink-soft selection:text-burgundy;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(255, 209, 220, 0.4);
+  }
+  .text-gold {
+    @apply text-gold-glow;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+  }
+  .bg-glass {
+    @apply bg-pink-soft/5 backdrop-blur-md border border-pink-soft/10;
+  }
+  .writing-vertical {
+    writing-mode: vertical-rl;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Playfair+Display:ital,wght@1,700;1,900&display=swap');
