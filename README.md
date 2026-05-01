@@ -60,7 +60,7 @@ Letter to future self
 
 🎥 Demo
 
-👉 Watch the full experience here:
+👉 Watch the full experience here: https://youtu.be/cHnUiCftBgQ
 Click to View Demo
 
 🎬 Demo Walkthrough
